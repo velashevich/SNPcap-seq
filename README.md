@@ -1,5 +1,5 @@
-## SNPcap-seq
-# This pipeline is used for calculating and comparing directional and absolute bias statistics for samples dual-sequenced with SNPcap-Seq and whole-genome shotgun sequencing (WGS). The procedure relies on posterior genotype probability data.
+# SNPcap-seq
+## This pipeline is used for calculating and comparing directional and absolute bias statistics for samples dual-sequenced with SNPcap-Seq and whole-genome shotgun sequencing (WGS). The procedure relies on posterior genotype probability data.
 
 First the genotype likelihoods have to be generated for each paired library (.bam formatted) independently using a Samtools genotype likelihood model (-GL 1) and only for the positions targeted by capture array (-rf, use a file chr:position format) using ANGSD (Korneliussen et al., 2014). 
 
