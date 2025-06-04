@@ -10,3 +10,5 @@ python3 SS4.py <simplified_vcf_input> <output_name>
 Posterior genotypes can then be computed with SS5.py using a Bayesian-based approach where we update the priors with linearized genotype likelihood ANGSD output:
 
 python3 SS5.py <prior_file> <likelihood_file> <output_name>
+
+To calculate directional and absolute bias metrics, their average values for specimens and allele-pairs, produce heatmaps and boxplots, and test for statistical significance, run SS10.r and SS10_1.r, respectively. These scripts need some polishing.
